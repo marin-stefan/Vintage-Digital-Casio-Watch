@@ -1,0 +1,127 @@
+body {
+  /* background-image: url("https://cdni.watch24.ro/images/products/img1/5945/full/ceas-unisex-casio-retro-a164wa-1ves-7096.jpg"); */
+  /* background-image: url("https://ibb.co/Lg9hMzj"); */
+  background-image: url("images/ceascasio.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.main {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightButton {
+  box-sizing: border-box;
+  height: 30px;
+  width: 20px;
+  position: relative;
+  top: -6px;
+  left: -100px;
+  cursor: grabbing;
+}
+
+.modeButton {
+  box-sizing: border-box;
+  height: 30px;
+  width: 20px;
+  position: relative;
+  cursor: grabbing;
+  top: 80px;
+  left: -100px;
+}
+
+.startButton {
+  box-sizing: border-box;
+  height: 30px;
+  width: 20px;
+  position: relative;
+  cursor: grabbing;
+  top: 45px;
+  left: 370px;
+}
+
+.watchFrame {
+  box-sizing: border-box;
+  background-color: black;
+  width: 280px;
+  height: 146px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  border: 2px solid rgba(243, 241, 241, 0.699);
+  border-radius: 10px;
+  position: relative;
+  right: 4px;
+  top: 16px;
+}
+
+.watchFrame2 {
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 5px;
+  height: 122px;
+  position: relative;
+  top: -90px;
+}
+
+.weekMonth {
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30%;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Digital7Mono-B1g5;
+  font-weight: bolder;
+}
+
+.hourMinuteSecond {
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 66%;
+  margin-top: 1px;
+  font-size: 85px;
+  font-family: Digital7Mono-B1g5;
+  font-style: mono;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+}
+
+#pauseText {
+  font-size: 20px;
+}
+
+#amPm {
+  font-size: 30px;
+}
+
+#second {
+  font-size: 60px;
+}
+
+.night-mode {
+  background-color: aqua;
+}
+
+.night-mode2 {
+  border: 2px solid aqua;
+}
+
+#copyright {
+  color: #6495c0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Digital7Mono-B1g5;
+  src: url("fonts/Digital7Mono-B1g5.ttf");
+}
