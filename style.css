@@ -1,6 +1,4 @@
 body {
-  /* background-image: url("https://cdni.watch24.ro/images/products/img1/5945/full/ceas-unisex-casio-retro-a164wa-1ves-7096.jpg"); */
-  /* background-image: url("https://ibb.co/Lg9hMzj"); */
   background-image: url("images/ceascasio.jpg");
   background-repeat: no-repeat;
   background-position: top;
@@ -115,6 +113,16 @@ body {
   border: 2px solid aqua;
 }
 
+.press-buttons {
+  display: none;
+  color: #6495c0;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+  margin: 5px;
+}
+
 #copyright {
   color: #6495c0;
   font-size: 30px;
@@ -124,4 +132,25 @@ body {
 @font-face {
   font-family: Digital7Mono-B1g5;
   src: url("fonts/Digital7Mono-B1g5.ttf");
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-image: url("images/ceascasio60.jpg");
+  }
+  .watchFrame {
+    transform: scale(0.6);
+    right: 2px;
+    top: -29px;
+  }
+  .main {
+    height: 550px;
+  }
+  #copyright {
+    text-align: center;
+    margin: 5px;
+  }
+  .press-buttons {
+    display: inherit;
+  }
 }

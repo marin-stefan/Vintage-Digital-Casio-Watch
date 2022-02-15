@@ -8,7 +8,7 @@ This is a simple watch app part of the projects from the course. The design was 
 
 ## Requirements were :
 
-* Start with a simple app with a html, script and css file
+* Start with a simple app with a html, script and css file.
 
 * Render a watch to the screen.
 
