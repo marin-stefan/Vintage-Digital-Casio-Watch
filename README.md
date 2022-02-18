@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a simple watch app part of the projects from the course. The design was not enforced. I choose a vintage Casio digital watch model. It show time, date, day of the week. The Buttons work just like they would work on the original watch setting light, mode, stopwatch,stop/reset etc.
+This is a simple watch app part of the projects from the course. The design was not enforced. I chose a vintage Casio digital watch model. It show time, date, day of the week. The Buttons work just like they would work on the original watch setting light, mode, stopwatch,stop/reset etc.
 
 
 ## Requirements were :
